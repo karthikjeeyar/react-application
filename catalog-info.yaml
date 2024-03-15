@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "react-app"
+  description: "A sample React application created from backstage software templates."
+  annotations:
+    github.com/project-slug: karthikjeeyar/react-application
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/karthikjeeyar"
